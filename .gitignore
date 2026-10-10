@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+.vscode/
+*.pkl
+!src/rintag/models/crf_model.pkl
+data/raw/*.csv
+data/lexicon/*.csv
+demo/.venv
